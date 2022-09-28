@@ -7,7 +7,6 @@
 
         <!-- OP-TEE gits -->
         <project path="optee_test"           name="OP-TEE/optee_test.git" />
-        <project path="build"                name="OP-TEE/build.git">
                 <linkfile src="qemu_v8.mk" dest="build/Makefile" />
         </project>
 
