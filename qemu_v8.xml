@@ -7,7 +7,6 @@
 
         <!-- OP-TEE gits -->
         <project path="optee_test"           name="OP-TEE/optee_test.git" />
-        </project>
 
         <!-- linaro-swg gits -->
         <project path="linux"                name="linaro-swg/linux.git"                  revision="optee" clone-depth="1" />
