@@ -9,10 +9,9 @@
         <project path="optee_os"         name="flatmonster/optee_os.git" revision="refs/tags/3.18.0" clone-depth="1" />
         <project path="optee_client"         name="OP-TEE/optee_client.git" revision="refs/tags/3.18.0" clone-depth="1" />
         <project path="optee_test"           name="OP-TEE/optee_test.git" revision="refs/tags/3.18.0" clone-depth="1" />
-        <project path="build"                name="flatmonser/build.git" revision="refs/tags/3.18.0_build/qemu_v8.mk" clone-depth="1">
+        <project path="build"                name="flatmonster/build.git" revision="refs/tags/3.18.0" clone-depth="1">
                 <linkfile src="qemu_v8.mk" dest="build/Makefile" />
         </project>
-
         <!-- linaro-swg gits -->
         <project path="linux"                name="linaro-swg/linux.git"                  revision="refs/tags/optee-3.18.0" clone-depth="1" />
         <project path="optee_benchmark"      name="linaro-swg/optee_benchmark.git" revision="refs/tags/3.18.0" clone-depth="1"/>
@@ -27,3 +26,4 @@
         <project path="trusted-firmware-a"   name="TF-A/trusted-firmware-a.git"           revision="refs/tags/v2.6" clone-depth="1" remote="tfo" />
         <project path="u-boot"               name="u-boot.git"                            revision="refs/tags/v2021.04" remote="u-boot" clone-depth="1" />
 </manifest>
+
