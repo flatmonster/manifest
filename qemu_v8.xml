@@ -6,7 +6,7 @@
         <default remote="github" revision="master" />
 
         <!-- OP-TEE gits -->
-        <project path="optee_os"         name="flatmonster/optee_ps.git" revision="refs/tags/3.18.0" clone-depth="1" />
+        <project path="optee_os"         name="flatmonster/optee_os.git" revision="refs/tags/3.18.0" clone-depth="1" />
         <project path="optee_client"         name="OP-TEE/optee_client.git" revision="refs/tags/3.18.0" clone-depth="1" />
         <project path="optee_test"           name="OP-TEE/optee_test.git" revision="refs/tags/3.18.0" clone-depth="1" />
         <project path="build"                name="flatmonser/build.git" revision="refs/tags/3.18.0_build/qemu_v8.mk" clone-depth="1">
