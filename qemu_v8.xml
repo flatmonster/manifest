@@ -16,10 +16,12 @@
         <project path="linux"                name="linaro-swg/linux.git"                  revision="refs/tags/optee-3.18.0" clone-depth="1" />
         <project path="optee_benchmark"      name="linaro-swg/optee_benchmark.git" revision="refs/tags/3.18.0" clone-depth="1"/>
         <project path="optee_examples"       name="linaro-swg/optee_examples.git" revision="refs/tags/3.18.0" clone-depth="1" />
+        <!-- darknetz   will put -->
+  <!-- <project path="optee_examples/darknetz"       name="flatmonster/darknetz.git" revision="no" clone-depth="1" /> -->
 
         <!-- Misc gits -->
         <project path="buildroot"            name="buildroot/buildroot.git"               revision="refs/tags/2021.11" clone-depth="1" />
-        <project path="edk2"                 name="tianocore/edk2.git"                    revision="refs/tags/edk2-stable202105" sync-s="true" />
+        <project path="edk2"                 name="tianocore/edk2.git"                    revision="refs/tags/edk2-stable202202" sync-s="true" />
         <project path="mbedtls"              name="Mbed-TLS/mbedtls.git"                   revision="refs/tags/mbedtls-2.26.0" clone-depth="1" />
         <project path="optee_rust"           name="apache/incubator-teaclave-trustzone-sdk.git"            revision="3272b38b013395e3376a38af6315633239d26c1c" />
         <project path="qemu"                 name="flatmonster/qemu.git"                         revision="refs/tags/7.0.0" clone-depth="1" />
