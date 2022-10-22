@@ -6,7 +6,7 @@
         <default remote="github" revision="master" />
 
         <!-- OP-TEE gits -->
-        <project path="optee_os"         name="flatmonster/optee_os.git" revision="refs/tags/3.18.0" clone-depth="1" />
+        <project path="optee_os"         name="flatmonster/optee_os.git" revision="refs/tags/optee_3.18.0-darknetz" clone-depth="1" />
         <project path="optee_client"         name="OP-TEE/optee_client.git" revision="refs/tags/3.18.0" clone-depth="1" />
         <project path="optee_test"           name="OP-TEE/optee_test.git" revision="refs/tags/3.18.0" clone-depth="1" />
         <project path="build"                name="flatmonster/build.git" revision="refs/tags/3.18.0" clone-depth="1">
@@ -17,7 +17,7 @@
         <project path="optee_benchmark"      name="linaro-swg/optee_benchmark.git" revision="refs/tags/3.18.0" clone-depth="1"/>
         <project path="optee_examples"       name="linaro-swg/optee_examples.git" revision="refs/tags/3.18.0" clone-depth="1" />
         <!-- darknetz   will change revision -->
-        <project path="optee_examples/darknetz"       name="flatmonster/darknetz.git" revision="no" clone-depth="1" /> 
+        <!-- <project path="optee_examples/darknetz"       name="flatmonster/darknetz.git" revision="no" clone-depth="1" />  -->
 
         <!-- Misc gits -->
         <project path="buildroot"            name="buildroot/buildroot.git"               revision="refs/tags/2021.11" clone-depth="1" />
